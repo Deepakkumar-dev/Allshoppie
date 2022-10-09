@@ -18,13 +18,6 @@ function getdetails(){
   });
 }
 
- 
-async function display(){
-  let aa= await getdetails();
- }
- 
-display();
-
 function display_products(d){
   ad=d.docs;
   console.log(ad);
@@ -42,6 +35,14 @@ function display_products(d){
   });
   placeholder.innerHTML=out;
 }
+ 
+async function display(){
+  let a= await getdetails();
+ }
+ 
+display();
+
+
 
 
 
