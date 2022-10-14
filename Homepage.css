@@ -1,0 +1,76 @@
+
+body{
+    background: url("images/bruno-kelzer-LvySG1hvuzI-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+  .search {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    width: 90%;
+ 
+    max-width: 900px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+  }
+  
+.search form fieldset{
+    border: 0px;
+}
+  .search form {
+    width: 100%;
+    max-width: 790px;
+  }
+
+  .search form legend {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 59px;
+  }
+#tagline{
+    font-size: 20px;
+	font-weight: 200;
+	
+}
+  .search form .inner-form {
+    width: 100%;
+    margin-bottom: 17px;
+  }
+  
+  .search form .inner-form .input-field {/*input field area*/
+    height: 70px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .search form .inner-form .input-field input {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    background: #fff;
+    padding: 10px 32px 10px 70px;
+    font-size: 18px;
+    color: #666;
+    border-radius: 34px;
+  }
+  
+  .search form .inner-form .input-field input.placeholder {
+    color: #ccc;
+    font-size: 18px;
+  }
+
+  .search form button{
+	background: #ff3d00;
+	color: #fff;
+	padding: 15px 40px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+    margin: 10px;
+
+}

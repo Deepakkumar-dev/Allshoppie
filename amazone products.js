@@ -1,9 +1,8 @@
-var name =['samsung galaxy s20'];
-var n={value:'earphones'};
+var n={value:'samsung galaxy s20'};
 const options = {
   method: 'GET',
   url: 'https://amazon24.p.rapidapi.com/api/product',
-  params: {categoryID: 'aps', keyword:n.value, country: 'IN', page: '1'},
+  params: {categoryID: 'aps', keyword:n.value, country: IN, page: '1'},
   headers: {
     'X-RapidAPI-Key': 'ad0a1fe89cmshc3bc850123e53e1p1c042ejsn6322aab7cfcc',
     'X-RapidAPI-Host': 'amazon24.p.rapidapi.com'
