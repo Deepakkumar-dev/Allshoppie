@@ -1,0 +1,159 @@
+body{
+    background-color:#f7f6f6;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    position:sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background:#c52222;
+    overflow: hidden;
+    z-index: 2;
+   justify-content: space-between; 
+   
+}
+
+.nav{
+    padding: 10px 10vw;
+    display: flex;
+    position: relative;
+   
+}
+.navbar .logo{
+    position: absolute;
+    height:40px;
+    left: 10px;
+    width: 40%;
+    
+}
+ .nav-items{
+    display: flex;
+
+} 
+
+.navbar .search{
+    position: relative;
+    width: 500px;
+    left: 400;
+    align-items: center;
+}
+
+.search .search-box{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d1d1d1;
+    text-transform: capitalize;
+    background: none;
+    color: #000000;
+    outline: none;
+ 
+}
+
+.search .search-btn{
+  position: absolute;
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #f5f2f2;
+    color: rgb(10, 10, 10);
+    text-transform: capitalize;
+    text-align:left;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+}
+
+.search-box::placeholder{
+    color: #000000;
+}
+
+.navbar  .login{
+  position: absolute;
+  right: 10px;
+  bottom: 10;
+  height:40px;
+    padding-bottom: 20px;
+  font-size: 20px;
+  
+ 
+
+}
+.producttiles {
+    width: 1200px;
+    font-size: 0;
+    margin: 0 auto;
+    color: white;
+    padding: 50px;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+.singletile {
+    width: calc(1200px / 5);
+    display: inline-block;
+    padding: 10px;
+    overflow: hidden;
+    color: white;
+    margin: 0 auto;
+    
+}
+.singletile .image{
+    position: relative;
+    width: 200px;
+    
+
+
+  
+}
+.singletile .productname {
+    font-size: 12px;
+    line-height: 25px;
+    /* margin-bottom: 5px;
+    margin-top: 15px; */
+    text-overflow: ellipsis;
+    max-width: 12;
+    display:inline-block;
+   white-space: nowrap;
+}
+.singletile .product_price{
+    color: #000000;
+    font-weight: 100;
+    margin-right: 5px;
+    font-size: 10px;
+
+}
+
+
+.singletile .saveproduct{
+    margin-top: 15px;
+}
+
+.add_to_cart_button {
+    background: none repeat scroll 0 0 #5a88ca;
+    border: medium none;
+    color: #fff;
+    padding: 6px 25px;
+    display: inline-block;
+    font-size :15px;
+
+
+}
+.add_to_cart_button:hover {background-color: #222;color: #fff;text-decoration: none}
+form.cart {
+    margin-bottom: 25px;
+}

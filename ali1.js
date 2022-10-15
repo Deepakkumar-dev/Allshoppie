@@ -32,7 +32,7 @@ function getdetails(){
 function display_products(d){
     ad=d.docs;
     console.log(ad);
-    placeholder = document.getElementById("producttiles");
+    placeholder = document.getElementById("products");
     let out="";
     ad.map((product)=>{
     var iurl=product.product_main_image_url
@@ -40,7 +40,7 @@ function display_products(d){
     out+=`
      <div class="singletile">
                 <div class="image">
-                    <img src='${nurl}>
+                    <img src='${nurl}'>
                 </div>
                 <h2><a href="" >${product.product_title}</a></h2>
                 <div class="product_price">
@@ -49,9 +49,8 @@ function display_products(d){
                 <div class="productsave">
                     <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">Save for later</a>
                 </div>
-            </div>
+    </div>
     `;
-    console.log(nurl);
     });
     placeholder.innerHTML=out;
    
