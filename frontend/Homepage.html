@@ -1,0 +1,35 @@
+<html>
+<head>
+     <title>Online Bazaar </title>
+	 <link rel="stylesheet" href="Homepage.css">
+	 <script>
+	 const form=document.querySelector("btn-search");
+	 const search=document.querySelector("#search");
+	 const n=search.value;
+	 sessionStorage.setItem('name',n)
+	 </script>
+</head>
+
+
+
+
+
+
+<body>
+<div class="search">
+	<form action="flipkart.html" method="post">
+		<fieldset>	<!-- Group related elements in a form -->
+		<legend>What are you looking for?</legend><!--is used to define a caption for the fieldset element-->
+		<div class="inner-form">
+		<div class="input-field">
+		<input id="search" type="text" placeholder="What can we help you to find?">
+		<button class="btn-search" type ="submit" >Search Products</button>
+        <p id="tagline">Confused Where to buy products? Don't worry, we got you covered!</p>
+		</div>
+	</div>
+	</fieldset>
+	</form>
+</div>
+     
+</body>
+</html>  
